@@ -14,6 +14,14 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-deskto
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/22e6405b-10cc-458d-9a71-f240c61c8047)
 
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/ea08f29b-60b6-49fe-98a0-3dd3aaaa9861)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/ea97cdcd-45e2-46ab-aa24-c121e1dc98b9)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/15f44191-1eff-4c8c-b5b5-783b370443a4)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/e0be8705-9653-4608-bd90-7943b79d53bd)
+
 
 
 1.2. Run these commands to stall "xfce" using "apt":
