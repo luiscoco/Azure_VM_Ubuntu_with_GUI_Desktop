@@ -62,7 +62,7 @@ echo xfce4-session >~/.xsession
 sudo service xrdp restart
 ```
 
-1.4. Set a local user account password
+1.4. Set a local user account password, for example:"**Thismypassword123456**"
 
 ```bash
 sudo passwd azureuser
@@ -78,15 +78,27 @@ az vm open-port --resource-group mylinuxvm1974_group --name mylinuxvm1974 --port
 
 ## 3. OPEN REMOTE DESKTOP CONNECTION
 
-Now Open "**Remote Desktop Connection**" application and type the Azure VM Public IP address and the username "azureuser" and then press connect:
+Now Open "**Remote Desktop Connection**" application and type the Azure VM **Public IP address** and the username "**azureuser**" and then press connect:
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/b1d97b46-f61a-4b84-9ea2-6fb2077df1db)
 
-Then enter the password to access the Linux GUI Desktop
+Then enter the password "**Thismypassword123456**" to access the Linux GUI Desktop, it also requires another password, set the same one as before "**Thismypassword123456**":
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/88da3f7f-0f29-449f-8f81-ecb7dffe64ce)
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/d881368c-7876-4c09-851a-7e660470ae83)
+
+**IMPORTANT NOTE**: if you cannot access:
+
+Restart the VM 
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/74422ae2-9c96-4f86-803e-cf634a9b917a)
+
+And Check the access, 
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/5f0bdce7-fe17-4078-b703-5c49f9b5f238)
+
+After try/run again the  **Remote Desktop Connection**" application.
 
 ### 3.1. HOW TO INSTALL VSCODE
 
