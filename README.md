@@ -43,32 +43,29 @@ and the username "azureuser" and then press connect.
 
 Then enter the password to access the Linux GUI Desktop
 
----------------------------------------------------------------------------------------------------------------------------
-HOW TO INSTALL VSCODE
----------------------------------------------------------------------------------------------------------------------------
+### 3.1. HOW TO INSTALL VSCODE
 
+```bash
 sudo apt install software-properties-common apt-transport-https wget
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt update
 sudo apt install code
+```
 
----------------------------------------------------------------------------------------------------------------------------
-HOW TO INSTALL GOOGLE CHROME
----------------------------------------------------------------------------------------------------------------------------
+### 3.2. HOW TO INSTALL GOOGLE CHROME
 
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
 
 
+### 3.3. HOW TO INSTALL .NET 8 SDK
 
----------------------------------------------------------------------------------------------------------------------------
-HOW TO INSTALL .NET 8 SDK
----------------------------------------------------------------------------------------------------------------------------
-
+```bash
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
-
 
 sudo apt update
 sudo apt install -y apt-transport-https
@@ -76,3 +73,4 @@ sudo apt update
 sudo apt install -y dotnet-sdk-8.0
 
 dotnet --version
+```
