@@ -28,8 +28,15 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-deskto
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/2299dec1-ee14-4eae-8cef-118c683aba2a)
 
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/f0c4c249-492b-475f-8bdb-cb79a18d9c3a)
 
+Open a command prompt window and type the commands to access into the Linux VM:
 
+```
+az ssh vm --ip 20.61.2.228
+```
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/a35eb913-d3de-4932-ada9-590257c31c8f)
 
 1.2. Run these commands to stall "xfce" using "apt":
 
