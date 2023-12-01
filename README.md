@@ -30,7 +30,7 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-deskto
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/f0c4c249-492b-475f-8bdb-cb79a18d9c3a)
 
-Open a command prompt window and type the commands to access into the Linux VM:
+Open a **command prompt** window and type the commands to access into the Linux VM:
 
 ```
 az ssh vm --ip 20.61.2.228
@@ -70,13 +70,15 @@ sudo passwd azureuser
 
 ## 2. HOW TO CREATE A NEW INBOUND RULE FOR THE REMOTE DESKTOP CONNECTION
 
+Now exit from the Linux VM and type the following command in your **command prompt**
+
 ```bash
 az vm open-port --resource-group mylinuxvm1974_group --name mylinuxvm1974 --port 3389
 ```
 
 ## 3. OPEN REMOTE DESKTOP CONNECTION
 
-Open Remote Desktop Connection and type the Azure VM Public IP address and the username "azureuser" and then press connect:
+Now Open "**Remote Desktop Connection**" application and type the Azure VM Public IP address and the username "azureuser" and then press connect:
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/b1d97b46-f61a-4b84-9ea2-6fb2077df1db)
 
