@@ -6,6 +6,16 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-deskto
 
 1.1. Create an Azure Virtual Machine with Ubuntu Server installed
 
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/be25dbb5-736f-4ad6-a0cd-82693eebdc91)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/7f92bef9-21f1-4278-ac71-4ff518f1dc75)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/8352c935-cc17-4a3d-adbf-ff08f2f2da5d)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/22e6405b-10cc-458d-9a71-f240c61c8047)
+
+
+
 1.2. Run these commands to stall "xfce" using "apt":
 
 ```bash
