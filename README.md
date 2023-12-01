@@ -46,6 +46,7 @@ Then enter the password to access the Linux GUI Desktop
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/88da3f7f-0f29-449f-8f81-ecb7dffe64ce)
 
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/d881368c-7876-4c09-851a-7e660470ae83)
 
 ### 3.1. HOW TO INSTALL VSCODE
 
