@@ -114,6 +114,12 @@ sudo apt update
 sudo apt install code
 ```
 
+For accessing VSCode type the command:
+
+```
+code
+```
+
 ### 3.2. HOW TO INSTALL GOOGLE CHROME
 
 ```bash
