@@ -38,10 +38,14 @@ az vm open-port --resource-group mylinuxvm1974_group --name mylinuxvm1974 --port
 
 ## 3. OPEN REMOTE DESKTOP CONNECTION
 
-Open Remote Desktop Connection and type the Azure VM Public IP address 
-and the username "azureuser" and then press connect.
+Open Remote Desktop Connection and type the Azure VM Public IP address and the username "azureuser" and then press connect:
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/b1d97b46-f61a-4b84-9ea2-6fb2077df1db)
 
 Then enter the password to access the Linux GUI Desktop
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/88da3f7f-0f29-449f-8f81-ecb7dffe64ce)
+
 
 ### 3.1. HOW TO INSTALL VSCODE
 
