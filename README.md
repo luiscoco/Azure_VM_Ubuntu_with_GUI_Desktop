@@ -50,6 +50,10 @@ Then enter the password to access the Linux GUI Desktop
 
 ### 3.1. HOW TO INSTALL VSCODE
 
+Open a Terminal Emulator window and run the following commands to install the VSCode application
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/98e76ee1-5832-4536-9692-babdce81e9ad)
+
 ```bash
 sudo apt install software-properties-common apt-transport-https wget
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
