@@ -38,6 +38,12 @@ az ssh vm --ip 20.61.2.228
 
 ![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/a35eb913-d3de-4932-ada9-590257c31c8f)
 
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/6e7f7506-a4a7-474f-ac9a-d82171de9aef)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/402f56c7-4025-4c54-8bd8-425eacfac99d)
+
+![image](https://github.com/luiscoco/Azure_VM_Ubuntu_with_GUI_Desktop/assets/32194879/e31720ed-74ce-4737-87f0-c0666b05acdd)
+
 1.2. Run these commands to stall "xfce" using "apt":
 
 ```bash
