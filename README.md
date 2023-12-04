@@ -135,9 +135,8 @@ wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.
 sudo dpkg -i packages-microsoft-prod.deb
 
 sudo apt update
-sudo apt install -y apt-transport-https
-sudo apt update
-sudo apt install -y dotnet-sdk-8.0
+
+sudo snap install dotnet-sdk --classic
 
 dotnet --version
 ```
