@@ -140,3 +140,89 @@ sudo snap install dotnet-sdk --classic
 
 dotnet --version
 ```
+
+### 3.4. Install DOCKER
+
+To install Docker Desktop on a Linux virtual machine, you can follow these general steps. 
+
+Keep in mind that the commands might vary slightly depending on your Linux distribution.
+
+Update Package Index:
+
+```
+sudo apt update
+```
+
+If you're using a distribution other than Ubuntu, replace apt with your package manager, such as yum for CentOS or dnf for Fedora.
+
+#### 3.4.1. Install dependencies:
+
+```
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+
+#### 3.4.2. Add Docker's official GPG key:
+
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+```
+
+#### 3.4.3. Replace linux/ubuntu with your distribution if it's different.
+
+Set up the stable repository:
+
+```
+echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+#### 3.4.4. Adjust the distribution in the URL if needed.
+
+Update the package index again:
+
+```
+sudo apt update
+```
+
+#### 3.4.5. Install Docker Engine:
+
+```
+sudo apt install docker-ce docker-ce-cli containerd.io
+```
+
+#### 3.4.6. Verify Docker installation:
+
+```
+sudo docker run hello-world
+```
+
+This command downloads a test image and runs a container. If everything is set up correctly, you'll see a "Hello from Docker!" message.
+
+
+### 3.5. Install Portainer
+
+Portainer is a great choice for managing Docker containers with a user-friendly interface. Here are the commands to install Portainer on your Linux virtual machine:
+
+#### 3.5.1 Create a Docker volume for Portainer data:
+
+```
+sudo docker volume create portainer_data
+```
+
+#### 3.5.2 Run Portainer as a Docker container:
+
+```
+sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+```
+
+This command pulls the Portainer image from Docker Hub and starts a container named "portainer" with access to the Docker socket for managing containers. 
+
+Portainer will be available on port 9000.
+
+#### 3.5.3. Access Portainer in your web browser:
+
+Open your web browser and go to **http://localhost:9000** or replace localhost with the IP address of your virtual machine if you are accessing it remotely. 
+
+You'll be prompted to set up an admin user and password.
+
+![image](https://github.com/luiscoco/Linux_install_XFCE_GUI_Desktop/assets/32194879/5c9beb0f-99f3-4ce9-a617-049fd0715ba6)
+
